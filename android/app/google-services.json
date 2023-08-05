@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730032771072",
+    "project_id": "weather-2fad1",
+    "storage_bucket": "weather-2fad1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730032771072:android:4afbc3ac563ae2835d08e5",
+        "android_client_info": {
+          "package_name": "com.framework.thiago.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730032771072-ghpb61e4jocl9g47vprvgv4fjp4kqvpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHoWfIxXTy-31ZCBwhL--TiJ3qwaot5kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730032771072-ghpb61e4jocl9g47vprvgv4fjp4kqvpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
