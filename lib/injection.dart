@@ -3,11 +3,14 @@ import 'package:injectable/injectable.dart';
 
 import 'injection.config.dart';
 
-final getIt = GetIt.instance;  
-  
-@InjectableInit(  
-  initializerName: 'init', // default  
-  preferRelativeImports: true, // default  
-  asExtension: true, // default  
-)  
-void configureDependencies() => getIt.init();  
+final getIt = GetIt.instance;
+const prod = Environment('prod');
+const mock = Environment('mock');
+
+@InjectableInit(preferRelativeImports: true)
+Future<void> configureDependencies({
+  Environment environment = mock,
+}) async =>
+    getIt.init(
+      environment: environment.name,
+    );
