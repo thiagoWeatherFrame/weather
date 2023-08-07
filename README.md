@@ -1,3 +1,5 @@
+[![Flutter CI](https://github.com/thiagoWeatherFrame/weather/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/thiagoWeatherFrame/weather/actions/workflows/main.yml)
+
 ## Previsão do Tempo - Aplicação Flutter
 
 Este é um projeto de aplicativo móvel para previsão do tempo. O aplicativo consome uma API
